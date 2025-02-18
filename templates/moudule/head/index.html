@@ -1,0 +1,15 @@
+<!-- 公共head头 -->
+<th:block th:fragment="moudule_head">
+    <!-- 元数据 -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 标题 -->
+    <title th:text="${site.title}"></title>
+    <!-- CSS -->
+    <link rel="preload" th:href="@{/assets/dist/css/main.min.css}" as="style">
+    <link rel="stylesheet" th:href="@{/assets/dist/css/main.min.css}"  />
+    <!-- script -->
+    <script th:src="@{/assets/dist/main.iife.js}"></script>
+    
+</th:block>

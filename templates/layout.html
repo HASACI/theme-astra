@@ -1,0 +1,12 @@
+<!-- 公共布局 -->
+<!DOCTYPE html>
+<html lang="en" th:fragment="html (content)">
+  <head>
+    <!-- 引入公共头 -->
+    <th:block th:replace="~{moudule/head/index}"/>
+
+  </head>
+  <body>
+    <th:block th:replace="${content}" />
+  </body>
+</html>

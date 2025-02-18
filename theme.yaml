@@ -1,9 +1,9 @@
 apiVersion: theme.halo.run/v1alpha1
 kind: Theme
 metadata:
-  name: theme-hasaci
+  name: theme-astra
 spec:
-  displayName: hasaci
+  displayName: astra
   author:
     name: Halo
     website: https://github.com/halo-dev
@@ -12,9 +12,9 @@ spec:
   homepage: https://github.com/HSACI/theme-hasaci
   repo: https://github.com/HASACI/theme-hasaci
   issues: https://github.com/HASACI/theme-hasaci/issues
-  settingName: "theme-hasaci-setting"
-  configMapName: "theme-hasaci-configMap"
-  version: "1.0.0"
+  settingName: "theme-astra-setting"
+  configMapName: "theme-astra-configMap"
+  version: "0.0.1"
   requires: "2.0.0"
   license:
     - name: "GPL-3.0"

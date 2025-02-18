@@ -1,5 +1,5 @@
-import "./styles/tailwind.css";
-import "./styles/main.css";
+import "./css/tailwind.css";
+import "./css/main.css";
 import Alpine from "alpinejs";
 
 window.Alpine = Alpine;

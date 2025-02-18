@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "glob": "^10.2.7",
     "@iconify-json/tabler": "^1.1.109",
     "@iconify/tailwind": "^0.1.4",
     "@tailwindcss/typography": "^0.5.10",
