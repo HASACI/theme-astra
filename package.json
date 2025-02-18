@@ -36,7 +36,7 @@
     "alpinejs": "^3.13.7"
   },
   "lint-staged": {
-    "*.{ts,json,yaml,yml,html}": [
+    "*.{ts,json,yaml,yml}": [
       "prettier --write"
     ]
   },
