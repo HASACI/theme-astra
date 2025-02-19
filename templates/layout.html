@@ -1,12 +1,20 @@
 <!-- 公共布局 -->
 <!DOCTYPE html>
-<html lang="en" th:fragment="html (content)">
+<html lang="en" th:fragment="html (_content,_title)">
   <head>
     <!-- 引入公共头 -->
     <th:block th:replace="~{moudule/head/index}"/>
+    <!-- 标题 -->
+     <title>
+      <th:block th:if="${_title != null}"> <th:block th:replace="${_title}"></th:block> </th:block><th:block th:unless="${_title!=null}">
+        <th:block th:if="${#strings.isEmpty(site.subtitle)}" th:text="${site.title}"></th:block>
+        <th:block th:unless="${#strings.isEmpty(site.subtitle)}" th:text="|${site.title}-${site.subtitle}|"></th:block>
+      </th:block>
+    </title>
+    
 
   </head>
   <body>
-    <th:block th:replace="${content}" />
+    <th:block th:replace="${_content}" />
   </body>
 </html>
