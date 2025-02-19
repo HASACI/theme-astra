@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:th="https://www.thymeleaf.org" th:replace="~{layout :: html(_content = ~{::content},_title=~{::title})}">
   <th:block th:fragment="content">
+    <img th:src="${#theme.assets('/img/16.jpg')}" class="cover-box">
     <div class="mx-auto flex h-screen w-96 flex-col items-center justify-center">
       <ul class="w-full list-inside list-disc">
         <li th:each="post : ${posts.items}">
@@ -12,7 +13,8 @@
           ></a>
         </li>
       </ul>
-
+      
     </div>
+    
   </th:block>
 </html>

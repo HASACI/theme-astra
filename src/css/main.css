@@ -1,7 +1,5 @@
-body {
-  background: #f2f2f2;
-}
+/* 这个是基础的html标签的css */
 
-ul {
-  list-style: decimal;
-}
+@import "common";
+/* 基础组件样式 */
+@import "component";

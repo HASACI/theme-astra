@@ -14,7 +14,7 @@ spec:
   issues: https://github.com/HASACI/theme-astra/issues
   settingName: "theme-astra-setting"
   configMapName: "theme-astra-configMap"
-  version: "0.0.1"
+  version: 0.0.1
   requires: "2.0.0"
   license:
     - name: "GPL-3.0"

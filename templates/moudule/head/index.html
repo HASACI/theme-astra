@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    
     <!-- CSS -->
-    <link rel="preload" th:href="@{/assets/dist/css/main.min.css}" as="style">
-    <link rel="stylesheet" th:href="@{/assets/dist/css/main.min.css}"  />
+    <link rel="preload" th:href="@{/assets/dist/css/main-{version}.min.css(version=${theme.spec.version})}" as="style">
+    <link rel="stylesheet" th:href="@{/assets/dist/css/main-{version}.min.css(version=${theme.spec.version})}"  />
     <!-- script -->
     <script th:src="@{/assets/dist/main.min.js}"></script>
 </th:block>
