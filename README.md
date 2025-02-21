@@ -1,8 +1,10 @@
-# Theme Modern Starter
+# Theme Astra
 
-一个集成了现代前端技术栈的 Halo 2.0 的主题开发模板。
+闲来无事,自己动手，开发一个halo的主题
 
-主题开发文档可查阅：<https://docs.halo.run/2.0.0-SNAPSHOT/developer-guide/theme/prepare>
+## Todo
+
+- [ ] 以星座为主旋律的目录导航
 
 ## 特性
 
@@ -16,11 +18,11 @@
 ## 开发
 
 ```bash
-git clone git@github.com:halo-dev/theme-modern-starter.git ~/halo2-dev/themes/theme-modern-starter
+git clone https://github.com/HASACI/theme-astra.git ~/halo2-dev/themes/theme-astra
 ```
 
 ```bash
-cd ~/halo2-dev/themes/theme-modern-starter
+cd ~/halo2-dev/themes/theme-astra
 ```
 
 ```bash
