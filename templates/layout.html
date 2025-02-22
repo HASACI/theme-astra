@@ -1,6 +1,6 @@
 <!-- 公共布局 -->
 <!DOCTYPE html>
-<html lang="en" th:fragment="html (_content,_title)">
+<html lang="en" th:fragment="layout (_content,_title,_header)">
   <head>
     <!-- 引入公共头 -->
     <th:block th:replace="~{moudule/head/index}"/>
@@ -11,10 +11,14 @@
         <th:block th:unless="${#strings.isEmpty(site.subtitle)}" th:text="|${site.title}-${site.subtitle}|"></th:block>
       </th:block>
     </title>
-    
-
+    <!-- 默认脚本 -->
+    <th:block th:replace="~{moudule/scripts/noscript}"></th:block>
   </head>
+  
   <body>
+    <section id="main-container" class="container">
+
+    </section>
     <th:block th:replace="${_content}" />
   </body>
 </html>

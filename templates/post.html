@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:th="https://www.thymeleaf.org" th:replace="~{layout :: html(_content = ~{::content},_title=~{::title})}">
+<html xmlns:th="https://www.thymeleaf.org" th:replace="~{layout :: layout(_content = ~{::content},_title=~{::title},_header=~{::header})}">
   <th:block th:fragment="content">
     <article
       class="prose !max-w-none p-4"

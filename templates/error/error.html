@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html
+  xmlns:th="https://www.thymeleaf.org"
+  th:replace="~{layout :: layout(_content = ~{::content},_title = ~{::title}, _header = ~{::header})}"
+>
+<th:block th:fragment="content">
+    <div class="error-404">
+        <div>
+            <h2 th:text="${error.status}"></h2>
+            <p th:text="${#strings.defaultString(error.title, 'Internal server error')}"></p>
+            <p th:if="${not #strings.isEmpty(error.detail)}" th:text="${error.detail}"></p>
+          </div>
+    </div>
+</th:block>
+</html>
