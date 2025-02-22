@@ -1,6 +1,5 @@
+@import "variables";
 /* 这个是基础的html标签的css */
 @import "common";
-/* 基础组件样式 */
-@import "component";
 /* 主题自定义的样式 */
 @import "theme";

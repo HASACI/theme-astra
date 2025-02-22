@@ -1,3 +1,6 @@
 /* 通用的css在这里 */
-@import "architecture"
-
+@import "architecture";
+/* 组件的css */
+@import "component";
+/* 大概的轮廓css */
+@import "outline";

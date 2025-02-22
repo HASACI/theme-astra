@@ -3,7 +3,7 @@
 <html lang="en" th:fragment="layout (_content,_title,_header)">
   <head>
     <!-- 引入公共头 -->
-    <th:block th:replace="~{moudule/head/index}"/>
+    <th:block th:replace="~{module/head/index}"/>
     <!-- 标题 -->
      <title>
       <th:block th:if="${_title != null}"> <th:block th:replace="${_title}"></th:block> </th:block><th:block th:unless="${_title!=null}">
@@ -12,12 +12,15 @@
       </th:block>
     </title>
     <!-- 默认脚本 -->
-    <th:block th:replace="~{moudule/scripts/noscript}"></th:block>
+    <th:block th:replace="~{module/scripts/noscript}"></th:block>
   </head>
   
   <body>
-    <section id="main-container" class="container">
-
+    <section id="main-container" class="main-container">
+      <!--/* 导航栏 */-->
+      <header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
+        <div class="header-inner" th:insert="~{module/header/index}"></div>
+      </header>
     </section>
     <th:block th:replace="${_content}" />
   </body>
