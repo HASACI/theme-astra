@@ -21,7 +21,15 @@
       <header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
         <div class="header-inner" th:insert="~{module/header/index}"></div>
       </header>
+      <!-- 页面内容 -->
+      <th:block th:replace="${_content}" />
     </section>
-    <th:block th:replace="${_content}" />
+    <!-- 页面底的备案信息 -->
+    <footer class="site-footer" role="contentinfo">
+      <div class="site-info">
+        <th:block th:replace="~{module/footer/index}" />
+      </div>
+    </footer>
+
   </body>
 </html>

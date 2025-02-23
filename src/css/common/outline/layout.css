@@ -1,8 +1,14 @@
 .site-header{
     position: relative;
     right: 0;
-    height: var(--header-height);
+    height: var(--header-height--);
     width: 100%;
     z-index: 10;
     background-color: aqua;
+}
+.site-footer{
+    position: relative;
+    width: 100%;
+    height: var(--footer-height--);
+    background-color: brown;
 }
