@@ -1,8 +1,10 @@
 /* header的左半段 */
 /* @import "header-before"; */
-.heade-inner{
+.header-inner{
     display: flex;
     flex-direction: row;
+    height: 100%;
+    width: 100%;
 }
 .header-before{
     flex: 2;

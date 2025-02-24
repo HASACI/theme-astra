@@ -1,4 +1,5 @@
 @import "layout";
+@import "header";
 /* 概略，网页的大概布局 */
 .main-container {
     transition: background 1s;
