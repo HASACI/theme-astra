@@ -4,11 +4,20 @@
     height: var(--header-height--);
     width: 100%;
     z-index: 10;
-    background-color: aqua;
+    background-color: #dfcdd0;
+
 }
+@import "header";
 .site-footer{
     position: relative;
     width: 100%;
     height: var(--footer-height--);
-    background-color: brown;
+    background-color: #fff9fa;
+}
+.site-sidebar{
+    width: 15.625rem;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
 }

@@ -1,6 +1,8 @@
 :root{
     /* header */
-    --header-height--: 4.6875rem;
-    /*  */
+    --header-height--: 5rem;
+    /*  footer*/
     --footer-height--:8rem;
+    /* sidebar */
+    --sidebar--width--:200px;
 }

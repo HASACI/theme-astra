@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:th="https://www.thymeleaf.org" th:replace="~{layout :: layout(_content = ~{::content},_title=~{::title},_header=~{::header})}">
   <th:block th:fragment="content">
-    <img th:src="${#theme.assets('/img/16.jpg')}" class="cover-box" style="z-index: 1;">
+    <!-- <img th:src="${#theme.assets('/img/16.jpg')}" class="cover-box" style="z-index: 1;"> -->
     <div class="mx-auto flex h-screen w-96 flex-col items-center justify-center" style="z-index: 2; position: relative;">
       <ul class="w-full list-inside list-disc">
         <li th:each="post : ${posts.items}">

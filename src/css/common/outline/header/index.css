@@ -1,0 +1,18 @@
+/* header的左半段 */
+/* @import "header-before"; */
+.heade-inner{
+    display: flex;
+    flex-direction: row;
+}
+.header-before{
+    flex: 2;
+    background-color: blue;
+}
+.header-content{
+    flex:8;
+    background-color: black;
+}
+.header-after{
+    flex:2;
+    background-color: aqua;
+}
