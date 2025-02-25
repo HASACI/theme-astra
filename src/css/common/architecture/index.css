@@ -1,2 +1,9 @@
 /* 这里是关于各种基础的css的定义 */
-@import "base.css"
+@import "base.css";
+@import "buttons.css";
+@import "iconify.css";
+@import "inputs.css";
+@import "links.css";
+@import "normalize.css";
+@import "scrollbar.css";
+@import "tables.css";

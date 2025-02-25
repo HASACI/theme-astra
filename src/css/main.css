@@ -1,3 +1,6 @@
+/* mixin */
+@import "mixins.css";
+/* 变量css */
 @import "variables";
 /* 这个是基础的html标签的css */
 @import "common";

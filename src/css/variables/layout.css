@@ -1,8 +1,11 @@
 :root{
+    /* body */
+    --body-color:white;
+    --background-color:rgb(78, 73, 73);
     /* header */
-    --header-height--: 5rem;
+    --header-height: 5rem;
     /*  footer*/
-    --footer-height--:8rem;
+    --footer-height:8rem;
     /* sidebar */
-    --sidebar--width--:200px;
+    --sidebar--width:200px;
 }

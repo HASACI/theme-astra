@@ -3,5 +3,6 @@
 /* 概略，网页的大概布局 */
 .main-container {
     transition: background 1s;
-  
+    min-width: 100vw;
+    min-height: 100vh;
   }
