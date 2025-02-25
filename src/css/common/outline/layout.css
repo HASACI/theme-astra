@@ -5,15 +5,18 @@
     height: var(--header-height);
     width: 100%;
     z-index: 10;
-    background-color: #dfcdd0;
 
 }
 
+.site-header:hover{
+    background-color: #dfcdd070;
+    transition: background-color 0.5 linear, transform 0.3s ease;
+}
 .site-footer{
     position: relative;
     width: 100%;
     height: var(--footer-height);
-    background-color: #fff9fa;
+    background-color: #dfcdd070;
 }
 .site-sidebar{
     width: 15.625rem;

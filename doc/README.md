@@ -18,5 +18,7 @@
 
     tailwind.css居然和postcss冲突
 
-    postcss很强大还提供了sass的类型的写法
+    postcss很强大还提供了sass的类型的写法，只需要配置postcss.config.js,下载包就行了
+
+    flex布局真好用
 
