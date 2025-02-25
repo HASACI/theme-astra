@@ -1,14 +1,20 @@
 /* header的左半段 */
 /* @import "header-before"; */
+@import "brand.css";
 .header-inner{
     display: flex;
     flex-direction: row;
     height: 100%;
     width: 100%;
+
 }
 .header-before{
     flex: 2;
-    background-color: blue;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .header-content{
     flex:8;
