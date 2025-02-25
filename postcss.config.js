@@ -12,7 +12,7 @@ module.exports = {
     require('postcss-mixins'),
     require('postcss-nesting'),
     require('postcss-custom-properties'),
-    require('tailwindcss'),
+    // require('tailwindcss'),
     require('autoprefixer'),
   ]
 }
